@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Aquí podras conocernos como empresa, nuestra misión, visión y politcas." />
+	<title>Contacto | RockGarden</title>
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+	<header>
+		<a href="index.html">
+		<img src="img/logo/rockgarden_logo.png" alt="RockGarden luz y sonido">
+		<h1>ROCKGARDEN</h1>
+		<h2>Luz y Sonido</h2>
+	</a>
+	<section id="social">
+		<a href="https://www.facebook.com/rock.garden.eventos" class="fa fa-facebook"></a>
+		<a href="https://twitter.com/RockGaden" class="fa fa-twitter"></a>
+		<a href="#" id="box" class="fa fa-whatsapp"></a>
+		<strong id="hide">044-55-5501-5772</strong>
+	</section>
+	<nav id="desplegable">
+		<div class="wrapper">
+			<ul>
+				<li><a href="conocenos.html">CONOCENOS</a></li>
+				<li><a href="clientes.html">CLIENTES</a></li>
+				<li><a href="festivales.html">FESTIVALES</a></li>
+				<li><a href="servicios.html">SERVICIOS</a></li>
+				<li><a href="galeria.html">GALERIA</a></li>
+				<li><a href="contacto.html">CONTACTO</a></li>
+			</ul>
+		</div>
+	</nav>
+	</header>
+	<div class="wrapper">
+		<section id="main">
+			<h2>Contactanos</h2>
+			<form action="formulario.php" method="post">
+				<label for="name">Nombre* </label>
+				<input type="text" name="nombre" id="name" required>
+				<label for="mail">Correo* </label>
+				<input type="email" name="correo" id="mail" required>
+				<label for="coment">Asunto del mensaje* </label>
+				<input type="text" name="asunto" id="asunt" required>
+				<input type="hidden" name="hidden" id="hidden">
+				<label for="coment">Mensaje* </label>
+				<textarea name="mensaje" id="coment" required></textarea>
+				<input type="submit" value="Enviar">
+			</form>
+			<div>
+				<div>
+					<p>TELÉFONOS:</p>
+					<ul>
+						<li>Celular: 044-55-5501-5772</li>
+						<li>Oficina: 6589-7806</li>
+					</ul>
+				</div>
+				<div>
+					<p>CORREOS:</p>
+					<ul>
+						<li><a href="mailto:michelle@rockgarden.mx">michelle@rockgarden.mx</a></li>
+						<li><a href="mailto:israel@rockgarden.mx">israel@rockgarden.mx</a></li>
+					</ul>
+				</div>
+				<div>
+					<p>REDES:</p>
+					<a href="https://www.facebook.com/rock.garden.eventos" class="fa fa-facebook"></a>
+					<a href="https://twitter.com/RockGaden" class="fa fa-twitter"></a>
+				</div>
+				<p><strong id="result"></strong></p>
+			</div>
+		</section>
+	</div>
+	<footer>
+		<div class="wrapper">
+			<span>RockGarden 2015 Todos los derechos reservados.</span>
+			<a href="mailto:sheikrik@gmail.com">Desarrollo web Sheikrik</a>
+		</div>
+	</footer>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="js/whats.js"></script>
+</body>
+</html>
